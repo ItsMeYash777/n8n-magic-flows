@@ -1,0 +1,79 @@
+{
+  "name": "Email TO Slack",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "filters": {
+          "includeSpamTrash": false,
+          "labelIds": [
+            "IMPORTANT",
+            "UNREAD"
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        16,
+        64
+      ],
+      "id": "cf56e189-1cda-42ed-85c2-39b3063a48de",
+      "name": "Gmail Trigger"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C094T8H45P1",
+          "mode": "list",
+          "cachedResultName": "all-yash"
+        },
+        "text": "={{ $json.From }}{{ $json.Subject }}{{ $json.snippet }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        272,
+        64
+      ],
+      "id": "1bf37ba4-5d0b-444c-be66-f8cc6b82eff8",
+      "name": "Send a message",
+      "webhookId": "78895651-78d0-40ca-8c2c-a3fd11a25c6d"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Gmail Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "397d9eaf-c4a7-4eed-83d4-e19eac07919a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": ""
+  },
+  "id": "O9sQGNMsVAwI948Q",
+  "tags": []
+}
