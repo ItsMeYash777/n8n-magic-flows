@@ -1,0 +1,524 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "{\n  \"rss_feeds\": [\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/world-news/us-news/rssfeed.xml\",\n      \"category\": \"World News\",\n      \"subcategory\": \"US News\",\n      \"city\": null,\n      \"country\": \"USA\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/education/exam-results/rssfeed.xml\",\n      \"category\": \"Education\",\n      \"subcategory\": \"Exam Results\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/education/rssfeed.xml\",\n      \"category\": \"Education\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml\",\n      \"category\": \"World News\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/infographic/rssfeed.xml\",\n      \"category\": \"Infographic\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/cities/kolkata-news/rssfeed.xml\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Kolkata\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/ht-insight/education-in-india/rssfeed.xml\",\n      \"category\": \"HT Insight\",\n      \"subcategory\": \"Education in India\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/astrology/rssfeed.xml\",\n      \"category\": \"Astrology\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml\",\n      \"category\": \"India News\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/cricket/rssfeed.xml\",\n      \"category\": \"Cricket\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/astrology/horoscope/rssfeed.xml\",\n      \"category\": \"Astrology\",\n      \"subcategory\": \"Horoscope\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/hollywood/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Hollywood\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/bollywood/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Bollywood\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/education/competitive-exams/rssfeed.xml\",\n      \"category\": \"Education\",\n      \"subcategory\": \"Competitive Exams\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/trending/us/rssfeed.xml\",\n      \"category\": \"Trending\",\n      \"subcategory\": \"US\",\n      \"city\": null,\n      \"country\": \"USA\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/cities/lucknow-news/rssfeed.xml\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Lucknow\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/htcity/rssfeed.xml\",\n      \"category\": \"HT City\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/education/board-exams/rssfeed.xml\",\n      \"category\": \"Education\",\n      \"subcategory\": \"Board Exams\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/cricket/ipl/rssfeed.xml\",\n      \"category\": \"Cricket\",\n      \"subcategory\": \"IPL\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml\",\n      \"category\": \"Sports\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/trending/rssfeed.xml\",\n      \"category\": \"Trending\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/cities/rssfeed.xml\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/education/employment-news/rssfeed.xml\",\n      \"category\": \"Education\",\n      \"subcategory\": \"Employment News\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Tamil Cinema\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/tv/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"TV\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/lifestyle/rssfeed.xml\",\n      \"category\": \"Lifestyle\",\n      \"subcategory\": \"General\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/lifestyle/festivals/rssfeed.xml\",\n      \"category\": \"Lifestyle\",\n      \"subcategory\": \"Festivals\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/telugu-cinema/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Telugu Cinema\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/entertainment/others/rssfeed.xml\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Others\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://www.hindustantimes.com/feeds/rss/htcity/htcity-showstoppers/rssfeed.xml\",\n      \"category\": \"HT City\",\n      \"subcategory\": \"Showstoppers\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-top-stories\",\n      \"category\": \"Top Stories\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvmovies-latest\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": \"Movies\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-latest\",\n      \"category\": \"News\",\n      \"subcategory\": \"Latest\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-trending-news\",\n      \"category\": \"Trending\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-india-news\",\n      \"category\": \"India News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-world-news\",\n      \"category\": \"World News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvprofit-latest\",\n      \"category\": \"Business\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvsports-latest\",\n      \"category\": \"Sports\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvsports-cricket\",\n      \"category\": \"Cricket\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/gadgets360-latest\",\n      \"category\": \"Technology\",\n      \"subcategory\": \"Gadgets\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-cities-news\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvnews-south\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"South India\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://feeds.feedburner.com/ndtvcooks-latest\",\n      \"category\": \"Lifestyle\",\n      \"subcategory\": \"Cooks\",\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://timesofindia.indiatimes.com/rssfeedstopstories.cms\",\n      \"category\": \"Top Stories\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://timesofindia.indiatimes.com/rssfeedmostrecent.cms\",\n      \"category\": \"Most Recent\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms\",\n      \"category\": \"India News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/296589292.cms\",\n      \"category\": \"World News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/1898055.cms\",\n      \"category\": \"Business\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/54829575.cms\",\n      \"category\": \"Cricket\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://timesofindia.indiatimes.com/rssfeeds_us/72258322.cms\",\n      \"category\": \"World News\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"USA\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/4719148.cms\",\n      \"category\": \"Sports\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128672765.cms\",\n      \"category\": \"Science\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/2647163.cms\",\n      \"category\": \"Environment\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/66949542.cms\",\n      \"category\": \"Technology\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/913168846.cms\",\n      \"category\": \"Education\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/1081479906.cms\",\n      \"category\": \"Entertainment\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/2886704.cms\",\n      \"category\": \"Lifestyle\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"https://timesofindia.indiatimes.com/rssfeeds/65857041.cms\",\n      \"category\": \"Astrology\",\n      \"subcategory\": null,\n      \"city\": null,\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128838597.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Mumbai\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128839596.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Delhi\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128833038.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Bangalore\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128816011.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Hyderabad\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/2950623.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Chennai\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128821153.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Ahmedabad\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3947060.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Allahabad\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/4118235.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Bhubaneswar\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/7503091.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Coimbatore\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/6547154.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Gurgaon\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/4118215.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Guwahati\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942695.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Kolkata\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3947051.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Ludhiana\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942690.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Mangalore\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942693.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Mysore\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/8021716.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Noida\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128821991.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Pune\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3012535.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Goa\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128816762.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Chandigarh\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128819658.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Lucknow\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/-2128817995.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Patna\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3012544.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Jaipur\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/442002.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Nagpur\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942663.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Rajkot\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/4118245.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Ranchi\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942660.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Surat\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3942666.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Vadodara\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3947071.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Varanasi\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/3831863.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Thane\",\n      \"country\": \"India\"\n    },\n    {\n      \"url\": \"http://timesofindia.indiatimes.com/rssfeeds/878156304.cms\",\n      \"category\": \"City News\",\n      \"subcategory\": null,\n      \"city\": \"Thiruvananthapuram\",\n      \"country\": \"India\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        280,
+        80
+      ],
+      "id": "3f1a9389-cfb3-4514-af33-a9b972b31b69",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {}
+          ]
+        },
+        "sendHeaders": true,
+        "specifyHeaders": "json",
+        "jsonHeaders": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\n  \"Accept\": \"application/rss+xml, application/xml, text/xml, */*\",\n  \"Accept-Language\": \"en-US,en;q=0.9\",\n  \"Accept-Encoding\": \"gzip, deflate, br\",\n  \"Referer\": \"https://www.hindustantimes.com/\",\n  \"Connection\": \"keep-alive\",\n  \"Cache-Control\": \"no-cache\",\n  \"Pragma\": \"no-cache\",\n  \"Sec-Fetch-Dest\": \"document\",\n  \"Sec-Fetch-Mode\": \"navigate\",\n  \"Sec-Fetch-Site\": \"same-origin\",\n  \"Upgrade-Insecure-Requests\": \"1\"\n}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 5,
+              "batchInterval": 2000
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        80
+      ],
+      "id": "a21eeffc-e3b3-4f0d-bf87-807e92893394",
+      "name": "HTTP Request",
+      "executeOnce": false,
+      "retryOnFail": false
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.xml",
+      "typeVersion": 1,
+      "position": [
+        840,
+        80
+      ],
+      "id": "020d36ce-fcf7-4d8e-b959-725182101eb4",
+      "name": "XML"
+    },
+    {
+      "parameters": {
+        "jsCode": "const feeds = $json[\"rss_feeds\"];\nreturn feeds.map(feed => ({\n  json: feed \n}));\n\nreturn $input.all();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        80
+      ],
+      "id": "9100897b-b76f-47d4-b484-04617312c13f",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "schema": {
+          "__rl": true,
+          "mode": "list",
+          "value": "public"
+        },
+        "table": {
+          "__rl": true,
+          "value": "news_articles",
+          "mode": "list",
+          "cachedResultName": "news_articles"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {
+            "title": "={{ $json.title }}",
+            "image": "={{ $json.image }}",
+            "link": "={{ $json.link }}",
+            "description": "={{ $json.description }}",
+            "id": "={{ $json.id }}",
+            "content_hash": "={{ $json.content_hash }}",
+            "created_at": "={{ $json.created_at }}",
+            "updated_at": "={{ $json.updated_at }}",
+            "scraped_at": "={{ $json.scraped_at }}",
+            "category": "={{ $json.category }}",
+            "author": "={{ $json.author }}",
+            "published_time": "={{ $json.published_time }}",
+            "source": "={{ $json.source }}",
+            "source_domain": "={{ $json.source_domain }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": [
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": true,
+              "display": true,
+              "type": "number",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": true,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "link",
+              "displayName": "link",
+              "required": true,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "image",
+              "displayName": "image",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "source",
+              "displayName": "source",
+              "required": true,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "source_domain",
+              "displayName": "source_domain",
+              "required": true,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "published_time",
+              "displayName": "published_time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "author",
+              "displayName": "author",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "category",
+              "displayName": "category",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "scraped_at",
+              "displayName": "scraped_at",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "dateTime",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "content_hash",
+              "displayName": "content_hash",
+              "required": true,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "meta_title",
+              "displayName": "meta_title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "meta_description",
+              "displayName": "meta_description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "meta_keywords",
+              "displayName": "meta_keywords",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "og_image",
+              "displayName": "og_image",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "og_url",
+              "displayName": "og_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "canonical_url",
+              "displayName": "canonical_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "full_content",
+              "displayName": "full_content",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "word_count",
+              "displayName": "word_count",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "number",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "structured_data",
+              "displayName": "structured_data",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "object",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "meta_tags",
+              "displayName": "meta_tags",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "object",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "created_at",
+              "displayName": "created_at",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "dateTime",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "updated_at",
+              "displayName": "updated_at",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "dateTime",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "skipOnConflict": true
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        1560,
+        80
+      ],
+      "id": "13080fa3-7178-4443-833b-cd672e02d6c3",
+      "name": "Postgres",
+      "credentials": {
+        "postgres": {
+          "id": "LQyju7pEDlnsCnQP",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Process ALL inputs (all 31 RSS feeds)\nconst allItems = [];\n\n// Loop through ALL inputs, not just the first one\nfor (const input of $input.all()) {\n    const feedData = input.json;\n    \n    console.log('Processing feed:', feedData.rss?.channel?.title);\n    \n    // Extract items from this feed\n    let rawItems;\n    if (feedData.rss?.channel?.item) {\n        rawItems = feedData.rss.channel.item;\n    } else if (feedData.rss?.channel?.[0]?.item) {\n        rawItems = feedData.rss.channel[0].item;\n    } else {\n        rawItems = [];\n    }\n    \n    // Normalize to array\n    const itemsArray = Array.isArray(rawItems) ? rawItems : [rawItems];\n    \n    console.log(`Feed has ${itemsArray.length} items`);\n    \n    // Add each item with feed metadata\n    for (const item of itemsArray) {\n        allItems.push({\n            json: {\n                ...item,\n                feedCategory: feedData.category ?? '',\n                feedSubcategory: feedData.subcategory ?? ''\n            }\n        });\n    }\n}\n\nconsole.log(`Total items from all feeds: ${allItems.length}`);\nreturn allItems;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1020,
+        80
+      ],
+      "id": "c889c78a-58bf-4482-9d82-7eb253166b82",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "jsCode": "const getText = val => Array.isArray(val) ? val[0] : val ?? '';\n\nconst getImageUrl = (entry) => {\n  const mediaContent = entry['media:content'];\n  if (mediaContent) {\n    // Handle case where media:content is an array\n    if (Array.isArray(mediaContent)) {\n      const firstMedia = mediaContent[0];\n      if (firstMedia?.url) return firstMedia.url;\n      if (firstMedia?.$?.url) return firstMedia.$.url;\n    }\n    // Handle case where media:content is an object with url\n    if (typeof mediaContent === 'object' && mediaContent.url) {\n      return mediaContent.url;\n    }\n    // Handle case where media:content has $ object with url\n    if (mediaContent.$?.url) return mediaContent.$.url;\n  }\n  // Fallback to other common image fields\n  if (entry.enclosure?.url) return entry.enclosure.url;\n  if (entry.image?.url) return entry.image.url;\n  if (entry.thumbnail?.url) return entry.thumbnail.url;\n  return null;\n};\n\n// Process ALL input items (each item from previous step)\nreturn $input.all().map(input => {\n  const entry = input.json;\n  return {\n    json: {\n      title: getText(entry.title),\n      article_url: getText(entry.link),\n      image_url: getImageUrl(entry),\n      pubDate: getText(entry.pubDate),\n      description: getText(entry.description),\n      categoryTag: getText(entry.category),\n      feedCategory: entry.feedCategory || '',      // Preserve from previous step\n      feedSubcategory: entry.feedSubcategory || '' // Preserve from previous step\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        80
+      ],
+      "id": "b527a10f-8d18-44e4-91bf-9203a6325d98",
+      "name": "Code4"
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractDomainFromUrl(url) {\n    if (!url) return '';\n    try {\n        const withoutProtocol = url.replace(/^https?:\\/\\//, '');\n        const domain = withoutProtocol.split('/')[0];\n        return domain;\n    } catch (error) {\n        console.log('Domain extraction error:', error);\n        return '';\n    }\n}\n\nfunction extractCategory(url){\n   if (!url) return '';\n    try {\n       const withoutProtocol = url.replace(/^https?:\\/\\//, '');\n      const segments = withoutProtocol.split('/');\n         if (segments.length > 1 && segments[1]) {\n            return segments[1];\n        }\n        \n        return '';\n    } catch (error) {\n        console.log('Category extraction error:', error);\n        return '';\n    }\n}\n\nfunction extractSourceFromUrl(url) {\n    if (!url) return '';\n    try {\n        const withoutProtocol = url.replace(/^https?:\\/\\//, '');\n        const domain = withoutProtocol.split('/')[0];\n        const source = domain.replace(/^www\\./, '').split('.')[0];\n        return source;\n    } catch (error) {\n        console.log('Source extraction error:', error);\n        return '';\n    }\n}\n\nfunction generateId() {\n    const timestamp = Date.now();\n    const randomSuffix = Math.floor(Math.random() * 10000);\n    const id = (timestamp * 10000 + randomSuffix) % 214748367\n    return id;\n}\n\n\nfunction generateContentHash(title, description) {\n    const content = (title || '') + (description || '');\n    let hash = 0;\n    for (let i = 0; i < content.length; i++) {\n        const char = content.charCodeAt(i);\n        hash = ((hash << 5) - hash) + char;\n        hash = hash & hash;\n    }\n    return Math.abs(hash).toString(16);\n}\n\nfunction mapDataForDatabase(inputData, feedInfo) {\n    return {\n        id: generateId(),\n        title: inputData.title || '',\n        link: inputData.article_url || '',\n        image: inputData.image_url || '',  \n        description: inputData.description || '',\n        source: extractSourceFromUrl(inputData.article_url),\n        source_domain: extractDomainFromUrl(inputData.article_url),\n        published_time: inputData.pubDate || '',\n        category: inputData.categoryTag || extractCategory(inputData.article_url) || '',\n        scraped_at: new Date().toISOString(),\n        content_hash: generateContentHash(inputData.title, inputData.description),\n        created_at: new Date().toISOString(),\n        updated_at: new Date().toISOString()\n    };\n}\n\nconst outputItems = [];\n\nfor (const [index, inputItem] of $input.all().entries()) {\n    const mappedData = mapDataForDatabase(inputItem.json, index);\n    outputItems.push({\n        json: mappedData\n    });\n}\n\nreturn outputItems;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1380,
+        80
+      ],
+      "id": "0217fdb1-b150-4033-a642-83ef675c9730",
+      "name": "Code5"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 10
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        80,
+        80
+      ],
+      "id": "2bf19389-daf6-4b0b-bc8d-7bd4abc2a50f",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "XML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "XML": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Code4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code4": {
+      "main": [
+        [
+          {
+            "node": "Code5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code5": {
+      "main": [
+        [
+          {
+            "node": "Postgres",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "4a83aedf-c141-4c0d-b00a-5773ec59c8d4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": ""
+  },
+  "id": "sQ22pbi631t6e9nW",
+  "tags": []
+}
